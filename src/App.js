@@ -17,6 +17,8 @@ function App() {
         >
           Learn React
         </a>
+
+        <img src="https://idemoed.vercel.app/api/wall?username=ZTW21"/>
       </header>
     </div>
   );
