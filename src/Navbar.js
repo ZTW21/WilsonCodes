@@ -42,7 +42,7 @@ function Navbar() {
                 <NavLink to="/privacy" activeStyle>
                     Privacy
                 </NavLink>
-                <NavLink to="/suppport" activeStyle>
+                <NavLink to="/support" activeStyle>
                     Support
                 </NavLink>
             </NavMenu>
