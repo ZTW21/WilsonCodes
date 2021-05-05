@@ -1,26 +1,20 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import Home from "./Home.js";
+import Privacy from "./Privacy.js";
+import Support from "./Support.js";
+import {Route, Link} from 'react-router-dom';
+import Navbar from "./Navbar"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and piss to cum.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-
-        <img src="https://idemoed.vercel.app/api/wall?username=ZTW21"/>
-      </header>
-    </div>
+  <div className="App">
+    <Navbar />
+    <Route exact path="/" component={Home} />
+    <Route exact path="/privacy" component={Privacy} />
+    <Route exact path="/support" component={Support} />
+  </div>
   );
 }
 
