@@ -11,26 +11,6 @@ import {
 } from './NavbarElements';
 
 function Navbar() {
-    // return(
-    //     <header classname='navbar'>
-    //         <div classname='navbar_title navbar_item'>
-    //             Zachary Wilson
-    //         </div>
-
-    //         <div classname='navbar_item'>
-    //             <Link to="/" activeStyle>Home</Link>
-    //         </div>
-
-    //         <div classname='navbar_item'>
-    //             <Link to="/privacy" activeStyle>Privacy</Link>
-    //         </div>
-
-    //         <div classname='navbar_item'>
-    //             <Link to="/support" activeStyle>Support</Link>
-    //         </div>
-    //     </header>
-    // );
-
     return (
         <>
         <Nav>
